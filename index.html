@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esporte Tv</title>
+
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="d-flex justify-content-center titulo-h1">Esporte Tv</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div id="carousel-sport" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval='5000'>
+                        <img class="img-fluid" src="img/paraquedas.jpg" alt="Imagem de paraquedismo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval='5000'>
+                        <img class="img-fluid" src="img/trilha.jpg" alt="Imagem de trilha">
+                    </div>
+                    <div class="carousel-item" data-bs-interval='5000'>
+                        <img class="img-fluid" src="img/basquete.jpg" alt="Imagem de basquete">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-sport" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" data-bs-target="#carousel-sport" data-bs-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button data-bs-target="#carousel-sport" type="button" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#carousel-sport" type="button" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carousel-sport" type="button" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h1 id="secao-titulo" class="d-flex justify-content-center titulo-h1 mt-4">Modalidades</h1>
+        </div>
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card card-bg mt-2" id="card-bg">
+                        <div class="card-header d-flex justify-content-center">
+                            Esporte Tv
+                        </div>
+                        <img class="img-height" src="img/estadio-futebol.jpg" alt="Estádio de futebol">
+                        <div class="card-body">
+                            <h4 class="card-title d-flex justify-content-center">Futebol</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quos voluptas, provident porro perspiciatis eius veritatis vitae voluptate necessitatibus? Similique expedita eaque praesentium quia error quis delectus iusto placeat. Perspiciatis!</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card card-bg mt-2" id="card-bg">
+                        <div class="card-header d-flex justify-content-center">
+                            Esporte Tv
+                        </div>
+                        <img class="img-height" src="img/corrida.jpg" alt="Estádio de futebol">
+                        <div class="card-body">
+                            <h4 class="card-title d-flex justify-content-center">Atletismo</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quos voluptas, provident porro perspiciatis eius veritatis vitae voluptate necessitatibus? Similique expedita eaque praesentium quia error quis delectus iusto placeat. Perspiciatis!</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card card-bg mt-2" id="card-bg">
+                        <div class="card-header d-flex justify-content-center">
+                            Esporte Tv
+                        </div>
+                        <img class="img-height" src="img/Ciclismo.jpg" alt="Estádio de futebol">
+                        <div class="card-body">
+                            <h4 class="card-title d-flex justify-content-center">Ciclismo</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quos voluptas, provident porro perspiciatis eius veritatis vitae voluptate necessitatibus? Similique expedita eaque praesentium quia error quis delectus iusto placeat. Perspiciatis!</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

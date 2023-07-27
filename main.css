@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(42, 46, 49);
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    padding: 8px 0;
+    margin: 2px 0;
+}
+
+#secao-titulo {
+    background-color: black;
+    color: white;
+    padding: 8px 0 20px 0;
+    margin: 2px 0;
+}
+
+.card-bg {
+    background-color: rgb(63, 124, 104);
+    color: white;
+}
+
+.img-height {
+    height: 200px;
+}
